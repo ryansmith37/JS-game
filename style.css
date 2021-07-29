@@ -1,0 +1,27 @@
+body{
+	background-image:url("background_image.jpg");
+	background-size:cover;
+}
+
+h1:hover{
+	font-size:50px;
+}
+
+div{
+	border:3px solid black;
+	border-radius:45px;
+	color:ff4da6;
+	background-image:url("center_image.jpg");
+	background-size:contain;
+	height:400px;
+	width:500px;
+	margin-left:400px;
+	padding:20px;
+	margin-top:100px;
+	opacity:0.9;
+}
+
+div:hover{
+	font-size:24px;
+	color:#b30059;
+}

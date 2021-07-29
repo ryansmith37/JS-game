@@ -2,58 +2,12 @@
 <html>
 	<title>Wanna play a game</title>
 	<head>
-		<style>
-			body{
-				background-image:url("background_image.jpg");
-				background-size:cover;
-			}
-	  
-			h1:hover{
-				font-size:50px;
-			}
-	  
-			div{
-				border:3px solid black;
-				border-radius:45px;
-				color:ff4da6;
-				background-image:url("center_image.jpg");
-				background-size:contain;
-				height:400px;
-				width:500px;
-				margin-left:400px;
-				padding:20px;
-				margin-top:100px;
-				opacity:0.9;
-			}
-	  
-			div:hover{
-				font-size:24px;
-				color:#b30059;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="customJS.js"></script>
 	</head>
 	
 	<body>
-		<script>
-			function myFunction(){
-				var score=0,response=0,total=0;
-				do{
-					var generatedNumber=Math.floor(Math.random()*10+1);
-					var guessedNumber=prompt("Enter your number");
-
-					if(generatedNumber==guessedNumber)
-						{
-							alert("Congo!!! \n You guessed the correct number");
-							score++;
-						}
-					else
-						alert("Opps!!! \n Wrong guess");
-						total++;
-					response=prompt("ONCE MORE?\n 1.YES\n 2.NO");
-				}while(response==1);
-				alert("\n Number of times guessed= " + score + "/" + total);
-			}
-		</script>
+		
 
 		<div style="">
 			<h1 align="center">Guess The Number</h1>
